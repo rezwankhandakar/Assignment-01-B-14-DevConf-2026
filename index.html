@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevConf 2026</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Nav Section -->
+  <header class="navbar">
+    <div class="container">
+
+      <!-- Logo -->
+      <a href="#" class="nav-logo">
+        <img src="assets/logo.png" alt="DevConf 2026 logo" />
+      </a>
+
+      <!--Menu-->
+      <nav class="nav-menu">
+        <a href="#speakers">Speakers</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#tracks">Tracks</a>
+        <a href="#venue">Venue</a>
+        <a href="#blog">Blog</a>
+      </nav>
+
+      <!-- Button -->
+      <a href="#pricing" class="btn btn-primary">Register Now</a>
+
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Code. <em>Connect</em>. Create</h1>
+      <p>
+        Join 4,000+ engineers, founders, and builders at the premier developer
+        conference of 2026. Three days of cutting-edge talks, hands-on workshops,
+        and meaningful connections.
+      </p>
+      <a href="#pricing" class="btn btn-primary">Register Now</a>
+    </div>
+  </section>
+
+  <!--Meet the Speakers-->
+  <section class="speakers" id="speakers">
+    <div class="container">
+      <h2 class="section-title">Meet the Speakers</h2>
+
+      <div class="speakers-grid">
+
+        <!-- Speakers Card 1 -->
+        <article class="speaker-card">
+          <img class="speaker-photo" src="assets/andrej.png" alt="Andrej Karpathy speaking on stage" />
+          <div class="speaker-info">
+            <span class="speaker-tag">AI / ML</span>
+            <h3>Andrej Karpathy</h3>
+            <p class="speaker-role">Pretraining team, Anthropic</p>
+            <p class="speaker-bio">
+              Andrej will walk through how large models pick up structure from raw
+              text, and what that means for the next generation of coding assistants.
+            </p>
+          </div>
+        </article>
+
+        <!-- Speakers Card 2 -->
+        <article class="speaker-card">
+          <img class="speaker-photo" src="assets/demis.png" alt="Demis Hassabis portrait" />
+          <div class="speaker-info">
+            <span class="speaker-tag">Cloud & DevOps</span>
+            <h3>Demis Hassabis</h3>
+            <p class="speaker-role">Co-Founder and CEO, Google DeepMind</p>
+            <p class="speaker-bio">
+              A look at how research teams ship experimental models to production
+              infrastructure without slowing down the pace of discovery.
+            </p>
+          </div>
+        </article>
+
+        <!-- Speakers Card 3-->
+        <article class="speaker-card">
+          <img class="speaker-photo" src="assets/gary.png" alt="Gary Marcus portrait" />
+          <div class="speaker-info">
+            <span class="speaker-tag">Frontend</span>
+            <h3>Gary Marcus</h3>
+            <p class="speaker-role">Staff Engineer, Vercel</p>
+            <p class="speaker-bio">
+              Gary breaks down the rendering tricks that keep modern web apps
+              fast, and why the fundamentals still matter more than the framework.
+            </p>
+          </div>
+        </article>
+
+        <!-- Speakers Card 4 -->
+        <article class="speaker-card">
+          <img class="speaker-photo" src="assets/mustafa.png" alt="Mustafa Suleyman portrait" />
+          <div class="speaker-info">
+            <span class="speaker-tag">Security</span>
+            <h3>Mustafa Suleyman</h3>
+            <p class="speaker-role">CEO of Microsoft AI</p>
+            <p class="speaker-bio">
+              An honest conversation about the security trade-offs teams make
+              when they wire autonomous agents into everyday products.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Priceing Section -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <h2 class="section-title">Secure Your Spot</h2>
+      <p class="section-subtitle">Early-bird pricing ends August 15, 2026.</p>
+
+      <div class="pricing-grid">
+
+        <!-- Plan 1: Standard -->
+        <div class="price-card">
+          <span class="price-label">Standard</span>
+          <div class="price-amount">$399</div>
+          <p class="price-period">per person</p>
+          <ul class="price-features">
+            <li>Access to all 3 conference days</li>
+            <li>48 curated technical talks</li>
+            <li>2 workshop sessions</li>
+            <li>Networking lunch & coffee breaks</li>
+            <li>Conference swag bag</li>
+            <li>Digital recordings (30 days)</li>
+          </ul>
+          <a href="#" class="btn btn-outline">Get Standard</a>
+        </div>
+
+        <!-- Plan 2: Pro -->
+        <div class="price-card featured">
+          <span class="price-label">Pro</span>
+          <div class="price-amount">$749</div>
+          <p class="price-period">per person</p>
+          <ul class="price-features">
+            <li>Everything in Standard</li>
+            <li>Unlimited workshop access</li>
+            <li>Speaker meet & greet</li>
+            <li>VIP networking dinner</li>
+            <li>Lifetime recording access</li>
+            <li>1-on-1 mentorship (30 min)</li>
+          </ul>
+          <a href="#" class="btn btn-white">Get Pro</a>
+        </div>
+
+        <!-- Plan 3: Team -->
+        <div class="price-card">
+          <span class="price-label">Team</span>
+          <div class="price-amount">$5,999</div>
+          <p class="price-period">up to 10 people</p>
+          <ul class="price-features">
+            <li>Everything in Pro (10 seats)</li>
+            <li>Dedicated team lounge access</li>
+            <li>Private workshop booking</li>
+            <li>Company logo on event page</li>
+            <li>Recruitment booth (1 day)</li>
+            <li>Priority customer support</li>
+          </ul>
+          <a href="#" class="btn btn-outline">Contact Us</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--AI-CHALLENGE-->
+  <section class="hackathon" id="hackathon">
+    <div class="container">
+
+      <div class="hackathon-header">
+        <span class="hackathon-eyebrow">Side Event</span>
+        <h2 class="section-title">Build Overnight: The DevConf Sprint</h2>
+        <p class="section-subtitle">
+          A 24-hour hackathon running alongside the main conference. Bring a
+          teammate or find one at the kickoff — laptops, coffee, and mentors provided.
+        </p>
+      </div>
+
+      
+      <div class="hackathon-timeline">
+        <div class="timeline-step">
+          <div class="step-num">Day 1 · 6:00 PM</div>
+          <h4>Kickoff & Team Formation</h4>
+          <p>
+            Pitch an idea or join one on the board. Teams lock in by 7:30 PM,
+            right after the opening keynote wraps up.
+          </p>
+        </div>
+        <div class="timeline-step">
+          <div class="step-num">Overnight</div>
+          <h4>Build With Mentors on Call</h4>
+          <p>
+            Engineers from our sponsor labs rotate through the floor for
+            architecture reviews, debugging help, and the occasional pep talk.
+          </p>
+        </div>
+        <div class="timeline-step">
+          <div class="step-num">Day 2 · 5:00 PM</div>
+          <h4>Demo Stage & Judging</h4>
+          <p>
+            Five minutes on the main stage per team. Judges score on originality,
+            execution, and whether it actually runs.
+          </p>
+        </div>
+      </div>
+
+      <div class="hackathon-footer">
+        <div class="hackathon-stats">
+          <div>
+            <div class="stat-num">$15,000</div>
+            <div class="stat-label">in total prizes</div>
+          </div>
+          <div>
+            <div class="stat-num">24 hrs</div>
+            <div class="stat-label">to ship something real</div>
+          </div>
+          <div>
+            <div class="stat-num">12</div>
+            <div class="stat-label">mentors on the floor</div>
+          </div>
+        </div>
+        <a href="#" class="btn btn-white">Reserve a Team Slot</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!--FOOTER-->
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top">
+        <a href="#" class="footer-logo">
+          <img src="assets/footer-logo.png" alt="DevConf 2026 footer logo" />
+        </a>
+
+        <!--Socal icon-->
+        <div class="footer-social">
+          <a href="#" aria-label="X (Twitter)">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l16 16M20 4L4 20"/></svg>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="8" y1="11" x2="8" y2="16"/><circle cx="8" cy="8" r="0.5"/><path d="M12 16v-3a2 2 0 0 1 4 0v3"/><line x1="12" y1="11" x2="12" y2="16"/></svg>
+          </a>
+          <a href="#" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.7 2.8 5.6 3.1 5.6 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4.2 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+          </a>
+          <a href="#" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="3"/><polygon points="10 9 15 12 10 15"/></svg>
+          </a>
+        </div>
+      </div>
+
+     
+      <div class="footer-divider"></div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 DevConf. All rights reserved.</p>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
